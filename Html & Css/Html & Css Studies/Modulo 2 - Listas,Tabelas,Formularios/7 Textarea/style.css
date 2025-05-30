@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 100px;
+  font-size: 17px;
+}
+
+h1 {
+  font-family: "Open Sans";
+}
+
+table {
+  width: 600px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+tbody td {
+  border-bottom: 1px solid #000;
+}
+
+tbody tr:hover {
+  background-color: red;
+}
+
+table thead {
+  background-color: gray;
+}
+
+table tbody {
+  background-color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: gold;
+}
