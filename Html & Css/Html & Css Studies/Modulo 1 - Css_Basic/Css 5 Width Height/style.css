@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+}
+
+.exemplo {
+  background-color: #000;
+  height: 500px;
+  width: 500px;
+}
+
+img {
+  width: inherit;
+  max-width: 450px;
+  min-height: 100px;
+}
+
+/* 
+width: inherit; herança de tamanho
+width: 100%;
+width: 100px;
+width: auto; */
+
+/* 
+padding-top: 100px;
+padding-left: 50px;
+padding-bottom: 200px;
+padding-right: 10px;
+padding: 100px 50px; */

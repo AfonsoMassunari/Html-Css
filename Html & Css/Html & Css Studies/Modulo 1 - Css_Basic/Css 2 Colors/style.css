@@ -1,0 +1,30 @@
+/*
+nome_do_elemento{
+   color: red;
+}
+
+#id_do_elememto{
+  color: green;
+}
+
+.class_do_elemento{
+  color: red;
+} 
+
+elemento, outro_elemento{
+  color: blue;
+}
+
+elemento outro_elemento{
+  color:blue;
+}
+*/
+
+#titulo {
+  background-color: #89c721;
+  color: rgb(255, 255, 255);
+}
+
+ul li {
+  color: pink;
+}
