@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  color: #ff0000;
+}
+
+body .container {
+  color: #00ff00;
+  font-size: 20px;
+}
+
+div {
+  color: #0000ff;
+}
+
+/* lógica de cima pra baixo a última definição especificada é a que prevalece  */
+/* Porám a div não prevalece,pois container é mais específico; */
