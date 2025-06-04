@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+/* O rem difente do em só herda o tamanho da pai primária,
+ que é o html,é bom para utilizar no site inteiro,então mudanddo só o html,você muda tudo  */
+
+.box {
+  font-size: 2em;
+}
+
+.box-interno {
+  width: 10em;
+  height: 10em;
+  background-color: #999;
+}
+
+/* em é um tamanho relativo em relação ao 
+font-size pai,nesse caso 20px,paro o box resultando 40px,
+já o box-interno recebe do box resultando em 400px; */
