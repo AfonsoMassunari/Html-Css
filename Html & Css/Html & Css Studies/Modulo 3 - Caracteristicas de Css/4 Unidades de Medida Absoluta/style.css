@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 300pt;
+  height: 300px;
+  /*Estruturas absolutas: in: polegadas; pt: pontos; px: pixels; cm: centimetros; mm: milímetros */
+  background-color: #999;
+  color: #ff0000;
+}
