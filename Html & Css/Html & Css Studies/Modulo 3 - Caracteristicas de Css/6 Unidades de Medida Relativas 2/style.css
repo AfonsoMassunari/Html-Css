@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  /* width: 30ex; ele faz 30 vezes o tamanho padrão da fonte da letra,por exemplo arial,ninguem usa*/
+  width: 50%;
+  height: 400px;
+  background-color: #999;
+}
+
+.box-interno {
+  height: 50%;
+  width: 50%;
+  background-color: #333;
+  /* width: 14ch; unidade de tamanho do caracter da fonte,para fontes monospace pouco utilizado */
+}
+
+/* o box interno está pegando metade do box,que está pegando metade da tela; */
