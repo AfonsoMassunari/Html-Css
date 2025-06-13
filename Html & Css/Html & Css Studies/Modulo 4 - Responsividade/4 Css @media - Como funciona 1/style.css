@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #456;
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+  body {
+    background-color: aqua;
+  }
+}
+
+/* caso ele tenha largura maior que 300 e menor que 700 ,ele aplica o css dentro do media. */
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  body {
+    background-color: purple;
+  }
+}
+
+/* caso ele tenha largura maior que 700 e menor que 1000 ,ele aplica o css dentro do media. */
+
+@media (min-width: 1000px) {
+  body {
+    background-color: blue;
+  }
+}
+
+/* caso ele tenha largura maior que 1000,ele aplica o css dentro do media. */

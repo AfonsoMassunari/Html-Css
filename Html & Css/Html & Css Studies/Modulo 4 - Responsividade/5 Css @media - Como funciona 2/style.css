@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+table,
+td {
+  border: 2px solid black;
+  width: 200px;
+}
+
+body {
+  background-color: #456;
+}
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+@media only print {
+  body {
+    background-color: aqua;
+  }
+  h1 {
+    display: none;
+  }
+  /* texto n vai aparecer na impressão */
+}
+
+/* só vai acontecer isso na visão de impressão */
+
+/* @media only screen{} aplica só para tela mas n para as impressões */
+
+/* @media all{} aplica pra tudo*/

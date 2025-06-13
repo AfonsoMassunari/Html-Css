@@ -1,0 +1,22 @@
+@media (aspect-ratio: 1/1) {
+  body {
+    background-color: red;
+  }
+}
+/* só se for essa proporção exata */
+
+@media (min-aspect-ratio: 2/1) {
+  body {
+    background-color: blue;
+  }
+}
+
+/* se a largura for no minimo o dobro da altura */
+
+@media (max-aspect-ratio: 1/2) {
+  body {
+    background-color: purple;
+  }
+}
+
+/* se a altura for maior que o dobro da largura */

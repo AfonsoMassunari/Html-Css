@@ -1,0 +1,24 @@
+:root {
+  --bg-color: #000;
+  --bg-second: #444;
+  --front-color: #fff;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+h1 {
+  color: var(--front-color, #0000ff);
+}
+
+/* assim se n achar a variavel color,
+vai ser colocado o azul no lugar  */
+
+.container {
+  --verde: #00ff00;
+  background-color: var(--bg-second);
+  color: var(--verde);
+}
+
+/* criar uma variavel na raiz que representa as cores */
