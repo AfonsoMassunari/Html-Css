@@ -1,0 +1,7 @@
+img {
+  width: max(50%, 300px);
+  /* width: min(50%, 300px); */
+}
+
+/* escolhe o maior entre os dois valores,ou 50% da tela  */
+/* ou seja se a largura for menor que 600,vai ser fixo em 300 */

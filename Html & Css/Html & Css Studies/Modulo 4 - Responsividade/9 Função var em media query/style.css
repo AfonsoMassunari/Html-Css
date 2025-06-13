@@ -1,0 +1,35 @@
+:root {
+  --bg-color: #fff;
+  --bg-second: #ccc;
+  /* --font-size-big: 25px;
+  --font-size-small: 15px; */
+  --font-size: 25px;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-size: var(--font-size);
+}
+
+h1 {
+  color: var(--font-color, #0000ff);
+}
+
+.container {
+  background-color: var(--bg-second);
+  color: var(--verde);
+}
+
+/* @media (min-width: 450px) {
+  body {
+    font-size: var(--font-size-small);
+  }
+} */
+
+@media (min-width: 450px) {
+  :root {
+    --font-size: 15px;
+  }
+}
+
+/* mais inteligente só mudar a variavel ao invés de criar outra */
