@@ -1,0 +1,17 @@
+Mobile first foi utilizado para quando for criar um sistema pensar como ele seria visto no celular.
+
+layout sem responsividade,se diminuir o espaço disponivel da tela,o site n se adapata a mudança de tamanho.
+
+layout responsivo,o site responde a mudança de tamanho da tela.
+
+layout adaptativo,adapta ao tamanho da tela mas não de forma constante,ele se adapta para certos tamanhos específicos.
+
+Na maioria dos sites é necessário fazer um layout adaptativo e responsivo ao mesmo tempo.
+
+tamanhos mais utlizados: 
+320
+480
+760
+960
+1200
+1600

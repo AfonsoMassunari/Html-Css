@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Página</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <picture>
+      <source media="(min-width: 650px)" srcset="img2.jpg" />
+      <source media="(min-width: 450px)" srcset="img3.png" />
+      <img src="img1.jpg" alt="" />
+      <!-- Img 3 aparece quando for maior que 650px,Img 2 se for maior que 450px e se for menor que isso aparece a img1-->
+    </picture>
+  </body>
+</html>
+
+<!-- a ordem de se ver os styles é do arquivo externo css,dps style da página e por fim css inline -->
+<!-- Logo o style que prevalece sobre os outros é o style inline; -->
