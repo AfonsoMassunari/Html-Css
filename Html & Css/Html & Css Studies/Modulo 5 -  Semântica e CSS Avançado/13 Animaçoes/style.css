@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+@keyframes animation1 {
+  0% {
+    background-color: red;
+    top: 0;
+    left: 0;
+  }
+  25% {
+    background-color: blue;
+    top: 0;
+    left: 200;
+  }
+  25% {
+    background-color: yellow;
+    top: 200;
+    left: 200;
+  }
+  50% {
+    background-color: green;
+    top: 200;
+    left: 0;
+  }
+  100% {
+    background-color: orchid;
+    top: 0;
+    left: 200;
+  }
+}
+
+body {
+  margin: 0px;
+}
+
+.exemplo {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  animation-name: animation1;
+  animation-duration: 4s;
+}

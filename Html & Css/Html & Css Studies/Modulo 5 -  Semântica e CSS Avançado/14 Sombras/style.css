@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.exemplo {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  margin: auto;
+  margin-top: 100px;
+  box-shadow: 12px 7px 5px #3246;
+  border-radius: 75px;
+}
+
+.exemplo2 {
+  width: 150px;
+  height: 150px;
+  font-size: 20px;
+  color: green;
+  margin: auto;
+  text-shadow: 2px 1px 1px #8888;
+}

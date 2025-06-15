@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+.exemplo {
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+  background: linear-gradient(90deg, white, blue);
+  /* proteções pra varios navegadores */
+  /* 
+  background: -moz-linear-gradient(white, blue);
+  background: -o-linear-gradient(white, blue);
+  background: -webkit-linear-gradient(white, blue); */
+}
