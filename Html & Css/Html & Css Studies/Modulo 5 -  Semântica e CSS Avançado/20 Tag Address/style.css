@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+figure {
+  padding: 5px;
+  margin: 0px;
+  border: 1px solid black;
+}
+
+figcaption {
+  background-color: antiquewhite;
+  color: black;
+  text-align: center;
+  padding: 2px;
+}

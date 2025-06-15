@@ -1,0 +1,1 @@
+Normalize.css essa biblioteca conserta bugs e padroniza o comportamento de alguns elementos.

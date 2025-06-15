@@ -1,0 +1,5 @@
+WebKit é um motor de renderização utilizado em navegadores web para renderizar páginas.
+
+Opera,Safari,Chrome = WebKit
+Firefox = Gecko
+Edge = EdgeHtml
