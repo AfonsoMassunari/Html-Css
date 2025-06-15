@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.exemplo {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  margin: auto;
+  margin-top: 100px;
+  transition: all 0.25s linear;
+}
+
+/* propriedade transition controla a transição de 150 para 300 */
+
+.exemplo:hover {
+  width: 300px;
+}
+
+.exemplo2 {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+a {
+  color: blue;
+  transition: all 1s linear;
+}
+
+a:hover {
+  color: red;
+}

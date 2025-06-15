@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.exemplo {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+  word-wrap: break-word;
+}
+
+/* quebra a palavra qunado n cabe na div */
