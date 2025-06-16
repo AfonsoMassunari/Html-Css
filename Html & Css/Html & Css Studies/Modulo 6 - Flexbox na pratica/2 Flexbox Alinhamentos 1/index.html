@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- style é o css interno -->
+    <style type="text/css">
+      .container {
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; usado se vc quiser que os elementos vão para linha de baixo casa ultrapssem o tamanho */
+        /* flex-flow: row wrap; propriedade para especificar alinhameto e wrap ao msm tempo */
+        height: 500px;
+        justify-content: center; /*colocar centralizado*/
+        align-items: center; /*centralizar na coluna,os dois dependem se é coluna ou linha,a centralização deles muda*/
+        background-color: #dddddd;
+        /* justify-content: flex-start; justify-content: flex-end; os dois posicionam ou no fim ou no começo do espaço */
+        /* justify-content: space-around; espacamento igual entre os item; */
+        /* justify-content: space-beetween; espacamento igual entre os item,mas com um item no final e um no começo; pro justify tem as mesmas propriedades que o align-itens*/
+      }
+      /* column-reverse coloca a exibiçao em forma de colunas mas ao contrário */
+      .container div {
+        width: 100px;
+        height: 100px;
+        background-color: #ff0000;
+        margin: 10px;
+        padding: 10px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+  </body>
+</html>
+
+<!-- quremos o video responsivo -->

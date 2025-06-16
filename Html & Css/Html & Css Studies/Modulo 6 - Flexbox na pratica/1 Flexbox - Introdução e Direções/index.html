@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- style é o css interno -->
+    <style type="text/css">
+      .container {
+        display: flex;
+        flex-direction: row;
+        background-color: #dddddd;
+        margin: 10px;
+      }
+      /* column-reverse coloca a exibiçao em forma de colunas mas ao contrário */
+      .div1 {
+        flex: 1; /**/
+        background-color: #ff0000;
+        margin: 10px;
+        padding: 10px;
+        font-size: 18px;
+      }
+      .div2 {
+        flex: 1; /**/
+        background-color: #ff0000;
+        margin: 10px;
+        padding: 10px;
+        font-size: 18px;
+      }
+      .div3 {
+        flex: 2; /*O dobro de tamanho das outras divs com flex 1*/
+        background-color: #ff0000;
+        margin: 10px;
+        padding: 10px;
+        font-size: 18px;
+      }
+      .div4 {
+        flex: 3; /*O triplo de tamanho das outras divs com flex 1*/
+        background-color: #ff0000;
+        margin: 10px;
+        padding: 10px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Título do site</h1>
+    <div class="container">
+      <div class="div1">1</div>
+      <div class="div2">2</div>
+      <div class="div3">3</div>
+      <div class="div4">4</div>
+    </div>
+  </body>
+</html>
+
+<!-- quremos o video responsivo -->
