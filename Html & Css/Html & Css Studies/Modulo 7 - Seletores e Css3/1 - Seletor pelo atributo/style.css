@@ -1,0 +1,41 @@
+input,
+a {
+    display: block;
+}
+
+[required] {
+    background-color: red;
+}
+
+input[required] {
+    background-color: purple;
+}
+
+input[type="password"] {
+    background-color: aqua;
+}
+
+input[name="usuario"] {
+    background-color: aquamarine;
+}
+/* selecionou o elemento a partir do atributo,required */
+
+a[href^="http:"] {
+    background-color: lig;
+}
+
+a[href^="https:"] {
+    background-color: lightblue;
+}
+
+a[href*="economia"] {
+    background-color: green;
+}
+
+a[href*="futebol"] {
+    background-color: pink;
+}
+
+/* * esse simbolo procura no href se tem essa palavra no href */
+
+/* ^ esse procura no começo e esse $ no final */
