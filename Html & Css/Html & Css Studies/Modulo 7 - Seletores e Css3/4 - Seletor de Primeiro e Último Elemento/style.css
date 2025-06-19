@@ -1,0 +1,17 @@
+div {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+
+div:first-child {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+div:last-child {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* apenas um ponto pois se trata da propria div e n do conteudo */
