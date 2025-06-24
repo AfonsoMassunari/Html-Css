@@ -1,0 +1,9 @@
+div {
+    background-color: #ff0000;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    transform: scale(2, 1);
+}
+
+/* usar o tranform para alterar o tamanho do onjeto inteiro,se colocar 2 numeros é possivel mudar a escala na horizontal e vertical separadamente */

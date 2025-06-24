@@ -1,0 +1,18 @@
+body {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+div {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+/* quando quer especificar cor e transparencia,usa-se rgba
+
+utilizado para fazer um efeito na tela*/
