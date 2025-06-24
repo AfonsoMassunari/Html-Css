@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+span::before {
+    content: "->";
+    background-color: #ff0000;
+    border: 1px solid #000;
+}
+
+span::after {
+    content: "<-";
+    background-color: #ff0000;
+    border: 1px solid #000;
+}
+/* nth é pra seleciona a div em uma posição, last é de cima para baixo. */
+
+div {
+    background-color: #00ff00;
+    padding: 20px;
+}
+
+div::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #ff0000;
+}

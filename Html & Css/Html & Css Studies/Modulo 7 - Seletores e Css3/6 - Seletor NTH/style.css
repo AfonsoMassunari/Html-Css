@@ -1,0 +1,9 @@
+body :nth-child(2) {
+    background-color: #ff0000;
+}
+
+body :nth-last-child(2) {
+    background-color: blue;
+}
+
+/* nth é pra seleciona a div em uma posição, last é de cima para baixo. */
