@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    background-color: #ff0000;
+    width: 200px;
+    height: 200px;
+    border: 10px solid green;
+    padding: 10px;
+}
+
+/* O box-sizing resolveu o problema de vc conseguir criar uma div do tamanho certo sem ter que ficar somando border,padding,margin*/
+/* O border-box inclui a borda e o padding no tamanho do elemento */
+/* se quiser que o elemento n tenha o border-box só colocar content-box no elemento */

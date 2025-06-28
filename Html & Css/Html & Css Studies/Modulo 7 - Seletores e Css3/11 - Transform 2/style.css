@@ -1,0 +1,27 @@
+div {
+    background-color: #ff0000;
+    width: 200px;
+    height: 100px;
+}
+
+.txt1 {
+    position: fixed;
+    right: -50px;
+    bottom: 50px;
+    transform: rotate(90deg);
+}
+
+.txt2 {
+    margin: auto;
+    transform: skewx(20deg);
+    transform: skewy(20deg);
+}
+
+.txt3 {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    transform: rotateX(50deg);
+}
+
+/* usar o tranform para alterar o tamanho do onjeto inteiro,se colocar 2 numeros é possivel mudar a escala na horizontal e vertical separadamente */
