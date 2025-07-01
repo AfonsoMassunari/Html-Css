@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Research Form</title>
+    </head>
+    <section class="form-container">
+        <div class="title-area">
+            <h1 class="form-title">Research Form</h1>
+        </div>
+
+        <div class="form-wrapper">
+            <form action="" method="post">
+                <fieldset class="personal-datas">
+                    <legend>Personal Datas</legend>
+                    <label for="name" class="form-label">
+                        <p class="form-text">Name:</p>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            class="form-output"
+                            placeholder="Type your name"
+                            required
+                        />
+                    </label>
+                    <label for="adress" class="form-label">
+                        <p class="form-text">Adress:</p>
+                        <input
+                            type="text"
+                            id="adress"
+                            name="adress"
+                            class="form-output"
+                            placeholder="Type your adress"
+                            required
+                        />
+                    </label>
+                    <label for="city" class="form-label">
+                        <p class="form-text">City:</p>
+                        <input
+                            type="text"
+                            id="city"
+                            name="city"
+                            class="form-output"
+                            placeholder="Type your city"
+                            required
+                        />
+                    </label>
+                    <label for="state" class="form-label">
+                        <p class="form-text">State:</p>
+                        <select
+                            name="state"
+                            id="state"
+                            class="form-select"
+                            required
+                        >
+                            <option value="">Select a state</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset class="professional-datas">
+                    <legend>Professional Datas</legend>
+                    <div class="job-nature">
+                        <p class="form-text">Job Nature:</p>
+
+                        <div class="form-options-group">
+                            <label class="form-label">
+                                <input
+                                    type="radio"
+                                    name="position"
+                                    value="management"
+                                />Management
+                            </label>
+                            <label class="form-label">
+                                <input
+                                    type="radio"
+                                    name="position"
+                                    value="financial"
+                                />Financial
+                            </label>
+                            <label class="form-label">
+                                <input
+                                    type="radio"
+                                    name="position"
+                                    value="reception"
+                                />
+                                Reception
+                            </label>
+                            <label class="form-label">
+                                <input
+                                    type="radio"
+                                    name="position"
+                                    value="administrative"
+                                />
+                                Administrative
+                            </label>
+                            <label class="form-label">
+                                <input
+                                    type="radio"
+                                    name="position"
+                                    value="legal"
+                                />
+                                Legal
+                            </label>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="form-text">Areas of Interest:</p>
+
+                        <div class="form-options-group">
+                            <label class="form-label">
+                                <input
+                                    type="checkbox"
+                                    name="position"
+                                    value="computing"
+                                />Computing
+                            </label>
+                            <label class="form-label">
+                                <input
+                                    type="checkbox"
+                                    name="position"
+                                    value="engeneering"
+                                />Engeneering
+                            </label>
+                            <label class="form-label">
+                                <input
+                                    type="checkbox"
+                                    name="position"
+                                    value="medicine"
+                                />
+                                Medicine
+                            </label>
+                            <label class="form-label">
+                                <input
+                                    type="checkbox"
+                                    name="position"
+                                    value="psychology"
+                                />
+                                Psychology
+                            </label>
+                            <label class="form-label">
+                                <input
+                                    type="checkbox"
+                                    name="position"
+                                    value="history"
+                                />
+                                History
+                            </label>
+                        </div>
+                    </div>
+                    <div class="summary">
+                        <label for="summary">
+                            <p>Summary</p>
+                            <textarea
+                                name="summmary"
+                                id="summmary"
+                                rows="5"
+                                placeholder="Enter a summary of your personal experiences"
+                            ></textarea>
+                        </label>
+                    </div>
+                </fieldset>
+                <div class="form-submit-wrapper">
+                    <div class="form-submit">
+                        <button type="submit" class="submit-button">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</html>

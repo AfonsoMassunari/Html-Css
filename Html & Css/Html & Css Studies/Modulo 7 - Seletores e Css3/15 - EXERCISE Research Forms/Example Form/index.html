@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>formulário de pesquisa</title>
+    </head>
+    <body>
+        <section>
+            <div class="form-container">
+                <h1 class="form-title">Formulário</h1>
+            </div>
+
+            <div class="form-wrapper">
+                <fieldset class="Dados-pessoais">
+                    <legend>Dados pessoais</legend>
+                    <form action="" method="post" class="form1">
+                        <label for="nome" class="form-label">
+                            <p class="form-text">Nome:</p>
+                            <input
+                                type="text"
+                                id="nome"
+                                name="nome"
+                                class="form-input"
+                                placeholder="Digite seu nome"
+                                required
+                            />
+                        </label>
+
+                        <label for="endereco" class="form-label">
+                            <p class="form-text">Endereço:</p>
+                            <input
+                                type="text"
+                                id="endereco"
+                                name="endereco"
+                                class="form-input"
+                                placeholder="Digite seu endereço"
+                                required
+                            />
+                        </label>
+
+                        <label for="cidade" class="form-label">
+                            <p class="form-text">Cidade:</p>
+                            <input
+                                type="text"
+                                id="cidade"
+                                name="cidade"
+                                class="form-input"
+                                placeholder="Digite sua cidade"
+                                required
+                            />
+                        </label>
+
+                        <label for="estado" class="form-label">
+                            <p class="form-text">Estado:</p>
+                            <select
+                                id="estado"
+                                name="estado"
+                                class="form-select"
+                                required
+                            >
+                                <option value="">Selecione um estado</option>
+                                <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option>
+                            </select>
+                        </label>
+                    </form>
+                </fieldset>
+            </div>
+            <div>
+                <form action="" class="form2">
+                    <fieldset class="dados-profissionais">
+                        <legend>Dados profissionais</legend>
+
+                        <div>
+                            <p class="form-text">Natureza do Cargo</p>
+
+                            <div class="form-group">
+                                <label class="form-label">
+                                    <input
+                                        type="radio"
+                                        name="cargo"
+                                        value="gerencia"
+                                    />
+                                    Gerência
+                                </label>
+                                <label class="form-label">
+                                    <input
+                                        type="radio"
+                                        name="cargo"
+                                        value="financeiro"
+                                    />
+                                    Financeiro
+                                </label>
+                                <label class="form-label">
+                                    <input
+                                        type="radio"
+                                        name="cargo"
+                                        value="recepcao"
+                                    />
+                                    Recepção
+                                </label>
+                                <label class="form-label">
+                                    <input
+                                        type="radio"
+                                        name="cargo"
+                                        value="administrativo"
+                                    />
+                                    Administrativo
+                                </label>
+                                <label class="form-label">
+                                    <input
+                                        type="radio"
+                                        name="cargo"
+                                        value="juridico"
+                                    />
+                                    Jurídico
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="Área-de-Interesse">
+                            <p class="form-text">Área de Interesse</p>
+
+                            <div class="form-group">
+                                <label class="form-label">
+                                    <input
+                                        type="checkbox"
+                                        name="interesse"
+                                        value="computacao"
+                                    />
+                                    Computação
+                                </label>
+                                <label class="form-label">
+                                    <input
+                                        type="checkbox"
+                                        name="interesse"
+                                        value="biologia"
+                                    />
+                                    Biologia
+                                </label>
+                                <label class="form-label">
+                                    <input
+                                        type="checkbox"
+                                        name="interesse"
+                                        value="meio_ambiente"
+                                    />
+                                    Meio Ambiente
+                                </label>
+                                <label class="form-label">
+                                    <input
+                                        type="checkbox"
+                                        name="interesse"
+                                        value="engenharia"
+                                    />
+                                    Engenharia
+                                </label>
+                                <label class="form-label">
+                                    <input
+                                        type="checkbox"
+                                        name="interesse"
+                                        value="historia"
+                                    />
+                                    História
+                                </label>
+                            </div>
+                        </div>
+                        <label for="mini-curriculo">
+                            <p>Mini-currículo</p>
+                            <textarea
+                                name="mini-curriculo"
+                                id="mini-curriculo"
+                                rows="5"
+                                placeholder="Digite um breve resumo sobre sua experiência..."
+                            ></textarea>
+                        </label>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
