@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Arial", sans-serif;
+    background-color: #f4f7fa; /* Cor de fundo suave */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  fieldset {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  /* Estiliza o contêiner do título */
+  .form-container {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #3e4c59;
+  }
+  
+  /* Estiliza os títulos para os dados pessoais e profissionais */
+  .dados-pessoais-container {
+    background-color: #d1e7fd; /* Azul claro para dados pessoais */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .dados-profissionais-container {
+    background-color: #e0f7fa; /* Azul mais suave para dados profissionais */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Ajuste do espaçamento e alinhamento dos labels */
+  .form-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #5a6770;
+  }
+  
+  /* Mantendo o tamanho do input */
+  .form-label input,
+  .form-select {
+    height: 35px;
+    border: 1px solid #c7d1d9;
+    border-radius: 8px;
+    padding: 8px;
+    max-width: 400px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-label input:focus,
+  .form-select:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 8px rgba(0, 86, 179, 0.3);
+    outline: none;
+  }
+  
+  /* Ajuste do select para manter o padrão */
+  .form-select {
+    height: 35px;
+  }
+  
+  /* Botão de envio estilizado */
+  .form-button {
+    height: 40px;
+    background-color: #4e8ef7; /* Azul claro */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    max-width: 400px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #3679d8;
+    transform: scale(1.05);
+  }
+  
+  .form-button:active {
+    transform: scale(1);
+  }
+  
+  /* Flex container for grouping form elements */
+  .form-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  /* Textarea styling */
+  textarea {
+    width: 100%;
+    min-height: 150px;
+    border-radius: 8px;
+    border: 1px solid #c7d1d9;
+    padding: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  textarea:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 8px rgba(0, 86, 179, 0.3);
+    outline: none;
+  }
+  
